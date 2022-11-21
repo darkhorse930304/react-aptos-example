@@ -60,13 +60,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aptosis/aptos-framework@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "@aptosis/aptos-framework@npm:0.2.3"
+"@aptosis/aptos-framework@npm:^0.2.8":
+  version: 0.2.8
+  resolution: "@aptosis/aptos-framework@npm:0.2.8"
   dependencies:
-    "@movingco/prelude": ^0.3.0
+    "@movingco/prelude": ^0.4.0
     tslib: ^2.4.0
-  checksum: ace7817028ae39cfbd597ae393bfb286f3dc56426641d8ffcbab29f7f42912ee8ebfd0341ffabc1b7a34943702188da532a25e004b077ad9fea229bd03fbc6bc
+  checksum: 84c559094dcfc3f6adcf644d2f26f64484f04f86c07205dc0762cc2fdc4f0febe160bc6c16139d5cba3e7ed182326d698ead733d3d943f1f2adba72e444cfcdd
   languageName: node
   linkType: hard
 
@@ -201,7 +201,7 @@ __metadata:
     "@aptosis/aptos-api": ^0.1.0
     "@aptosis/aptos-client": ^0.1.0
     "@aptosis/aptos-common": ^0.2.0
-    "@aptosis/aptos-framework": ^0.2.3
+    "@aptosis/aptos-framework": ^0.2.8
     "@aptosis/keyby": "workspace:^"
     "@aptosis/react-aptos-api": "workspace:^"
     "@movingco/core": ^0.3.0
@@ -335,6 +335,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@movingco/bytes-to-hex@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/bytes-to-hex@npm:0.4.1"
+  dependencies:
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+  checksum: c2404f956cef18d3a2dbc890672911f13c4ff11e895b9d84026b37557be422de2279c8cfa0fbcc8c6d84ba00317c666136c714842f5d7aca2bdab2cea22137ba
+  languageName: node
+  linkType: hard
+
 "@movingco/core@npm:^0.3.0":
   version: 0.3.0
   resolution: "@movingco/core@npm:0.3.0"
@@ -352,6 +362,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@movingco/core@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/core@npm:0.4.1"
+  dependencies:
+    "@movingco/bytes-to-hex": ^0.4.1
+    "@movingco/hexstring": ^0.4.1
+    "@movingco/sha3": ^0.4.1
+    "@saberhq/option-utils": ^1.14.2
+    "@ubeswap/token-math": ^5.2.0
+    jsbi: ^4.3.0
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+  checksum: 9f4c1648ffb0f813461dff65ddedd8d9ba6e17faa135fa5ba48e22a337bff8e16dc53a7dbb78f53eeffd183cdb9c458382f3437413baeb185a6fb847e6a6bf86
+  languageName: node
+  linkType: hard
+
 "@movingco/hexstring@npm:^0.3.0":
   version: 0.3.0
   resolution: "@movingco/hexstring@npm:0.3.0"
@@ -360,6 +386,17 @@ __metadata:
     tiny-invariant: ^1.2.0
     tslib: ^2.4.0
   checksum: 87ee1ce5e0f63dd93bd93216d601413d53864ecfd0bd2826609a2ef871d1790605313f7174057f13f8430da4fef40f6f0755b9b1bdd7b17e7f882c6d2a721476
+  languageName: node
+  linkType: hard
+
+"@movingco/hexstring@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/hexstring@npm:0.4.1"
+  dependencies:
+    "@movingco/bytes-to-hex": ^0.4.1
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+  checksum: c07f7214530b245e31e0077389167d3cc16ca7f623e4053c0ce242a0b097255c868b01a5fdbe1e59e9c9510fe7d1d4feba91de42f05b518d02e702ffaa8916ec
   languageName: node
   linkType: hard
 
@@ -372,6 +409,16 @@ __metadata:
   peerDependencies:
     jsbi: ^4.3.0
   checksum: d892408041d2f45da5e8712da2c81c0ce4cf09ae98774508c64911eb38f4c0096fcf9165cffc8069a5d22e980e55eb101c2296cdd7f44d6a6be9ca2b42ac0ce4
+  languageName: node
+  linkType: hard
+
+"@movingco/idl@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/idl@npm:0.4.1"
+  dependencies:
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+  checksum: 08012f536b2ef59d89780992ee35e8485cd698b330a5ecf322e4edcaf1881e531a8e0e793a9c94aeb92554a733348fc325a1fa88f60ea6413d27bc6cc93145b1
   languageName: node
   linkType: hard
 
@@ -393,6 +440,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@movingco/move-types@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/move-types@npm:0.4.1"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: 1c0f42330c79e0ea14ffec3abf9a9e5816ea1585aba6e6355122f4c86ec7a7fb7d487e36c8bfa289ef07a890cb6e0c83dd06e1604915421055866ca4b71262f6
+  languageName: node
+  linkType: hard
+
 "@movingco/prelude@npm:^0.3.0":
   version: 0.3.0
   resolution: "@movingco/prelude@npm:0.3.0"
@@ -406,6 +462,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@movingco/prelude@npm:^0.4.0":
+  version: 0.4.1
+  resolution: "@movingco/prelude@npm:0.4.1"
+  dependencies:
+    "@movingco/core": ^0.4.1
+    "@movingco/idl": ^0.4.1
+    "@movingco/move-types": ^0.4.1
+    tslib: ^2.4.0
+  checksum: db86817e88ea126f3710839cc023bc6ccce5180793971b4cbf1885b6e04cc82438eb93bce1ef6a039e7acb09998b85b05c22022ddd6bb914321ed0f809777351
+  languageName: node
+  linkType: hard
+
 "@movingco/sha3@npm:^0.3.0":
   version: 0.3.0
   resolution: "@movingco/sha3@npm:0.3.0"
@@ -414,6 +482,17 @@ __metadata:
     tiny-invariant: ^1.2.0
     tslib: ^2.4.0
   checksum: 1d49e1dc6230e72ccc964f0022a3f1583392ce349ccb6184b8df1b23c8b7440dffdf78f489517f0651c01dd256fd1c8fcfee4d180981c4bb3f7a34ee397fbba8
+  languageName: node
+  linkType: hard
+
+"@movingco/sha3@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@movingco/sha3@npm:0.4.1"
+  dependencies:
+    js-sha3: ^0.8.0
+    tiny-invariant: ^1.2.0
+    tslib: ^2.4.0
+  checksum: 184dbd8d3b3a7a89eb2c7a795bdaa1740526bb967f06135bebdd0edc4d33ff343ef61596dd401fff0ad24960d470ab5c0969c68090e775b7bac3159c8f556f80
   languageName: node
   linkType: hard
 
@@ -505,6 +584,15 @@ __metadata:
   dependencies:
     tslib: ^2.4.0
   checksum: 9426216b75a7817680f44569d309256a28da809e1c593bc50033cb9426793465d0b392e1949d6964d3b34f2e1369bb3a25df42c1b7cacc2a14a87c029f666832
+  languageName: node
+  linkType: hard
+
+"@saberhq/option-utils@npm:^1.14.2":
+  version: 1.14.10
+  resolution: "@saberhq/option-utils@npm:1.14.10"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: 3c9c433ed0ce5f49e38452c799d60f61a8890f609a1243a8aaac951152c393cededfc57fe29695f722f78d52318cf2feb6b95c383e6457daee201161ca3a2e7a
   languageName: node
   linkType: hard
 
