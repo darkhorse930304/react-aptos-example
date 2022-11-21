@@ -17,6 +17,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aptosis/aptos-api@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@aptosis/aptos-api@npm:0.1.1"
+  dependencies:
+    "@aptosis/aptos-data-contracts": ^0.1.1
+    tslib: ^2.4.0
+  peerDependencies:
+    axios: ^0.27
+  checksum: fd6738160a2326a5a74dc9d62e83511c28f2bc412ef7ef6ba1b5264838e6eb73526e16b41bd3c51e0ffea85bd932db38bac4001acc6f50179301276472d77b0d
+  languageName: node
+  linkType: hard
+
 "@aptosis/aptos-client@npm:^0.1.0":
   version: 0.1.0
   resolution: "@aptosis/aptos-client@npm:0.1.0"
@@ -57,6 +69,15 @@ __metadata:
   dependencies:
     tslib: ^2.4.0
   checksum: 62ec2fe2242e6c441dcf61b78e37147734a88d6bb00197c54bdc7cb9ea94373136ecacfcafbcc8bb42d5b95f8bf276f4f5d03f2dc20d42185d13c7d5719b6553
+  languageName: node
+  linkType: hard
+
+"@aptosis/aptos-data-contracts@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@aptosis/aptos-data-contracts@npm:0.1.1"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: 0642b17bd72335a9769df3ee4b2b490b2d3c3679e263b6ee397fb84fdf608065f00933379b646b6a25760c771ccf819b29792dd8b55771843a3e178d17a305b3
   languageName: node
   linkType: hard
 
@@ -168,7 +189,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@aptosis/react-aptos@workspace:packages/react-aptos"
   dependencies:
-    "@aptosis/aptos-api": ^0.1.0
+    "@aptosis/aptos-api": ^0.1.1
     "@aptosis/aptos-client": ^0.1.0
     "@aptosis/aptos-common": ^0.2.0
     "@aptosis/seacliff": "workspace:^"
@@ -198,7 +219,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@aptosis/seacliff@workspace:packages/seacliff"
   dependencies:
-    "@aptosis/aptos-api": ^0.1.0
+    "@aptosis/aptos-api": ^0.1.1
     "@aptosis/aptos-client": ^0.1.0
     "@aptosis/aptos-common": ^0.2.0
     "@aptosis/aptos-framework": ^0.2.3
